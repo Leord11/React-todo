@@ -1,6 +1,5 @@
 {
   "name": "todo-list",
-  “homepage”: “https://leord11.github.io/React-todo/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    “homepage”: “https://leord11.github.io/React-todo/"
   }
 }
