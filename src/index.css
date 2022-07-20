@@ -1,0 +1,162 @@
+
+
+body {
+  margin: 0;
+  font-family:  
+    sans-serif;
+  background: rgb(49, 49, 49);
+  color: #fff;
+
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid darkgray;
+}
+.navbar h1 {
+  color: orange;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px;
+  color:#fff;
+}
+.navbar a:hover {
+  color: darkorange;
+}
+.content {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.task-list h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.task-list h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.task-preview a {
+  color:#fff;
+  text-decoration: none;
+}
+.task-preview a:hover {
+  color: darkorange;
+}
+
+.task-preview {
+  border-bottom: 1px solid gray;
+
+}
+
+.task-preview .p2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-details {
+  display: flex;
+  justify-content: center;
+  
+}
+.task-details label {
+  margin-right: 20px;
+  display: inline-block;
+}
+.task-details select  {
+  background-color: rgb(49, 49, 49);
+  color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.task-details button {
+ 
+  width: 5rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.btn-update {
+  color:#fff;
+  background: steelblue;
+  opacity: 0.9;
+  display: block;
+}
+.btn-update:hover {
+  color: steelblue;
+  background: none;
+  border: 1px solid steelblue;
+}
+.btn-delete {
+  color: #fff;
+  background:red ;
+  opacity: 0.7;
+
+}
+.btn-delete:hover {
+  color: #fff;
+  background: none;
+  border: 1px solid red;
+}
+
+.create {
+  max-width: 400px ;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+
+}
+.create h2 {
+  font-size: 20px;
+
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(228, 225, 225);
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  width: 5rem;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color:#fff;
+  background: steelblue;
+  opacity: 0.9;
+  display: block;
+  
+}
+
+.create button:hover {
+  color: steelblue;
+  background: none;
+  border: 1px solid steelblue;
+}
+/* npx json-server --watch data/db.json --port 8000 */
