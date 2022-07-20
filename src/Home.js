@@ -2,7 +2,7 @@ import useFetch from "./useFetch";
 import TaskList from "./TaskList";
 
 const Home = () => {
-    const { data:tasks, isPending, error} = useFetch("http://localhost:8001/tasks");
+    const { data:tasks, isPending, error} = useFetch("https://leord11.github.io/React-todo/tasks");
     
     return (
         <div className="home">
